@@ -15,7 +15,7 @@ Title: Rusty Spaceship - Orange
 
 	export const ref = new Group();
 
-	const gltf = useGltf('/models/spaceship.glb');
+	const gltf = useGltf('models/spaceship.glb');
 	const map = useTexture('textures/energy-beam-opacity.png');
 
 	gltf.then((model) => {

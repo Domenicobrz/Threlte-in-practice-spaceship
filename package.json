@@ -23,6 +23,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@sveltejs/adapter-static": "^2.0.0",
     "@threlte/gltf": "^2.0.0"
   }
 }
